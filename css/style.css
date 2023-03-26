@@ -1,0 +1,466 @@
+body
+{
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+
+/* header section */
+
+.header-top
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+  
+    background-image: linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82), rgb(18, 103, 175), rgb(23, 89, 218), rgb(18, 103, 175), rgb(11, 51, 82), rgb(15, 24, 44));
+}
+
+.header-top h3 
+{
+    font-weight: 500;
+    margin: 0;
+    padding: 0.8rem;
+    font-size: 1.1rem ;
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+}
+
+.header
+{
+    display: flex;
+    padding: 0.5rem 7rem;
+    background-color: #121d33;
+    align-items: center;
+        border-bottom: 2px solid #888888;
+    
+}
+.main-logo
+{
+    width: 230px;
+}
+
+.header-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-buttons ul
+{
+    display: flex;
+    color: rgb(203, 203, 203);
+    list-style: none;
+}
+
+.header-buttons li
+{
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+
+}
+
+.header-buttons-ul :hover
+{
+    background-color: rgba(224, 224, 224, 0.334);
+    transition:0.8s;
+    
+} 
+
+/* login and signup button header */
+
+.btn-header-login
+{
+    margin: 0 1rem;
+}
+.btn-header-login button
+{
+    padding: 0.8rem 1.2rem;
+    background: none;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-header-login :hover
+{
+    background-color: #ffffff36;
+    transition:0.3s;
+    
+} 
+
+.btn-header-sigunp button
+{
+    padding: 0.8rem 1.2rem;
+    background: white;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    color: #121d33;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.btn-header-sigunp :hover
+{
+    background-color: #ffffffbb;
+    transition:0.3s;
+    
+} 
+
+
+/* slider section  */
+
+.main-slider
+{
+    background-image: url("../images/slider-bg.svg");
+    background-size: cover;
+    background-position: 15% 99%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 15rem;
+}
+
+.main-slider-content
+{
+    color: white;
+    
+}
+
+.main-slider h1 
+{
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-slider h2
+{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-slider-email
+{
+    margin:2rem 0 0 0 
+}
+
+.input-type
+{
+    background-color: #8888884a;
+    padding: 1rem 10rem 1rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.input-type::placeholder {
+    color: rgb(255, 255, 255);
+    background-color: none;
+    font-size: larger;
+    font-weight: 200;
+    padding: 10px 10px;
+    border: none;
+  }
+
+.btn-main-slider-email
+{
+    padding: 0.8rem 1.2rem;
+    background: white;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    color: #2769ec;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+/* <!-- current price rate div --> */
+
+.price-range
+{
+    display: flex;
+    margin-left: 15rem;
+    margin-top:-3rem
+}
+
+.price-range-card
+{
+    width: 232px;
+    height: 144px;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: rgba(103, 113, 133, 0.2) 0.75rem 1.5rem 4rem 0rem;
+    margin:0 2rem 0 0;
+    padding: 0.8rem;
+}
+
+.view-price
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 12rem;
+    font-weight: 200;
+    color: gray;
+    align-items: center;
+}
+
+.price-range-card-img-button
+{
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0.8rem;
+}
+
+.price-range-card-img-button img 
+{
+    max-width: 40px;
+}
+
+.btn-buy-price-range
+{
+    background-color: rgb(239, 236, 254);
+    border-radius: 0.25rem;
+    border: none;
+    color: rgb(83, 34, 229);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    font-family: inherit;
+}
+
+.btn-trade-price-range
+{
+    background-color:rgb(230, 250, 236);
+    color: rgb(0, 153, 76)
+
+}
+
+.price-range-card h5 {
+    font-size: 1.1rem;
+    padding: 0.5rem 0.8rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.gray-out
+{
+    color: #828282;
+}
+
+.make-green
+{
+    color: rgb(0, 178, 107)
+}
+
+
+/* 
+<!-- The only crypto app you’ll ever need --> */
+
+
+.bg-main
+{
+    background-image: url("../images/homepage-app-shapes-bg@2x.png");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: right bottom;
+    background-color: #7349f20f;
+    margin: 2rem 12rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem
+}
+
+.bg-main1
+{
+    background-image: url("../images/homepage-exchange-shapes-bg@2x.png");
+    background-position: left bottom;
+    background-color: rgba(236, 245, 254, 0.5);
+
+}
+
+.bg-main2
+{
+    background-image: url("../images/homepage-institutional-shapes-bg@2x.png");
+    background-color: rgb(240, 242, 247)
+
+}
+
+.bg-main3{
+    background-color: rgba(255, 242, 229, 0.5);
+    background-image: url("../images/homepage-explorer-shapes-bg@2x.png");
+}
+
+
+.bg-main-icons
+{
+    display: flex;
+    color: rgb(115, 73, 242);
+    background: rgb(239, 236, 254);
+    width: fit-content;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    align-items: center;
+}
+
+.bg-main-icons1
+{
+    color:rgb(61, 137, 245) !important;
+}
+
+.bg-main-icons p
+{
+    margin-left: 0.8rem;
+}
+
+.bg-main-content-1 h2
+{
+    color: rgb(115, 73, 242);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.bg-main-features
+{
+    background-color: rgb(247, 245, 255);
+    border-radius: 0.75rem;
+    border: 1px solid rgb(222, 216, 253);
+    margin-bottom: 0.75rem;
+    padding: 0 1rem;
+    color: rgb(115, 73, 242);
+
+}
+
+.bg-main-btn
+{
+    background-color: rgb(115, 73, 242);
+    color: white;
+    font-family: inherit;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem;
+    border: none;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.bg-main-orange-color
+{
+    color: rgb(242, 139, 36) !important;
+}
+
+
+
+/* <!-- From zero to crypto in minutes --> */
+
+.zero-crypto
+{
+    background-image: url("../images/banner-bg.svg");
+    background-color: rgb(18, 29, 51);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.zero-crypto h3{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+
+}
+.zero-crypto button
+{
+    padding: 0.75rem 1.375rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 144%;
+    border-radius: 0.5rem;
+    border: 0.125rem solid transparent;
+    cursor: pointer;
+    color: rgb(12, 108, 242);
+    background: rgb(255, 255, 255);
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-logo
+{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer-icon li
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.footer-p
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #262626;
+}
+
+.footerul li
+{
+    list-style: none;
+    color: #4d4d4d;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.footer-common
+{
+    padding: 3rem;
+}
+
+.footer-bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-bottom-text
+{
+    font-weight: 200;
+}
+
+.app-store-img
+{
+    width: 200px;
+    margin: 0 2rem;
+}
+
